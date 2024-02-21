@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint-Shiba</title>
+    <link rel="icon" href="./assets/img/svg/iconDog.svg">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/root.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg_heroimg">
+        <nav class="bg_shade py_23">
+            <div class="container_1320">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center justify-content-between w-100">
+                        <h2 class="fw_400 pointer fs_36 clr_white lh_54 mb-0">Saint<span
+                                class="clr_orange fw_700">Shiba</span>
+                        </h2>
+                        <div class="d-flex align-items-center gap_32 moblieView closeNav">
+                            <a onclick="navWorking()" class="fw_400 fs_18 lh_32 clr_white navlinkBtn position-relative"
+                                href="#home">Home</a>
+                            <a onclick="navWorking()" class="fw_400 fs_18 lh_32 clr_white navlinkBtn position-relative"
+                                href="#">About Us</a>
+                            <a onclick="navWorking()" class="fw_400 fs_18 lh_32 clr_white navlinkBtn position-relative"
+                                href="#Tokenomics">Tokenomics</a>
+                            <a onclick="navWorking()" class="fw_400 fs_18 lh_32 clr_white navlinkBtn position-relative"
+                                href="#buy">How to
+                                buy</a>
+                            <a onclick="navWorking()" class="fw_400 fs_18 lh_32 clr_white navlinkBtn position-relative"
+                                href="#faq">FAQ</a>
+                            <a class="fw_600 max-xl- fs_18 lh_32 clr_white ml-6 navBtn" href="#">Connect
+                                Wallet</a>
+                        </div>
+                    </div>
+                    <!-- menu btn -->
+                    <div class="menu d-lg-none" onclick="openNav()">
+                        <span></span>
+                        <span class="my-2"></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <section id="home" class="pt_60">
+            <div class="container_1320">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-6 col-lg-7">
+                        <h1 class="fw_700 font-semibold-xl fs_96 lh_95 clr_white mb-0">
+                            Accumsan ut orci vitae
+                        </h1>
+                        <p
+                            class="fw_400 fs_22 lh_33 clr_white mt_24 mb_50 lg:mb-[30px] max-lg:max-w-[900px] max-2xl:max-w-[700px] w-full lg:w-full">
+                            Velit
+                            eget sit nibh fringilla risus ullamcorper malesuada. Morbi nulla suscipit
+                            dolor, volutpat quam at urna donec rutrum. In vulputate congue arcu in et.</p>
+                        <button class="fw_700 maxlg_fw_600 fs_22 lh_33 clr_white walletBtn ">Connect
+                            Wallet
+                        </button>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-5 pt_sm_50">
+                        <div class="d-flex justify-content-lg-end justify-content-center">
+                            <img src="./assets/img/png/hero-image.png" class="w-100 max_w_565 h_841"
+                                alt="hero-section-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- translated box -->
+    <section class="bg_blk -mt_2">
+        <div class="container_1320">
+            <div class="grayBox">
+                <div class="bg-transparent">
+                    <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_24">
+                        Cursus ligula habitant sed integer.</h1>
+                    <p class="fw_400 fs_18 lh_32 clr_white opacity_70">
+                        Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                        porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque.
+                        Nibh pellentesque lobortis etiam sed. Cursus donec porttitor fames
+                        tellus. At ut donec nec aliquet ipsum leo tellus amet lacus. Varius mi urna blandit id magna
+                        tellus
+                        imperdiet tortor. Volutpat nec vulputate diam tristique facilisi in turpis vel elit.</p>
+                    <p class="fw_400 fs_18 lh_32 clr_white opacity_70 mb-0">
+                        Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                        porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque.
+                        Nibh pellentesque lobortis etiam sed. Cursus donec porttitor fames
+                        tellus. At ut donec nec aliquet ipsum leo tellus amet lacus. Varius mi urna blandit id magna
+                        tellus imperdiet tortor. Volutpat nec vulputate diam tristique facilisi in turpis vel elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Cursus ligula -->
+    <section class="bg_blk -mt_2 pt_sm_115 position-relative z-3">
+        <div class="container_1320 position-relative z-3">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-7">
+                    <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_24 ">
+                        Cursus ligula
+                        habitant sed integer.</h1>
+                    <p class="fw_400 fs_18 lh_32 clr_white opacity_70 mb_32 ">
+                        Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra
+                        facilisis. Aliquam porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque
+                        neque. Nibh pellentesque lobortis etiam sed. Cursus donec porttitor fames tellus.
+                    </p>
+                    <button class="fw_600 max-xl-font-medium fs_18 lh_32 clr_white ml-6 navBtn border-0">Learn
+                        more</button>
+                </div>
+                <div class="col-12 col-lg-5 pt_sm_50">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/img/png/Cursus-image.png" class="w-100 max_w_551 h_722" alt="Cursus-image">
+                    </div>
+                </div>
+            </div>
+            <!-- position image -->
+            <img src="./assets/img/png/Ellipse1.png" class="position-absolute setpositionElips1" alt="ellips">
+            <img src="./assets/img/png/Ellipse2.png" class="position-absolute setpositionElips2" alt="ellips">
+        </div>
+        <!-- position image -->
+        <img src="./assets/img/png/leftLine.png" class="position-absolute setPositionCursus1" alt="ellips">
+        <img src="./assets/img/png/rightLine.png" class="position-absolute setPositionCursus2" alt="ellips">
+    </section>
+    <!-- How to Buy -->
+    <section id="buy" class="--brown-mix -mt_2 py_89_87 position-relative z-3">
+        <div class="container_1320">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_24">
+                        How to Buy</h1>
+                    <p class="fw_400 fs_18 lh_32 clr_white opacity_70 mb_32 ">
+                        Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                        porttitor sem rhoncus
+                        rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis etiam sed.
+                        Cursus donec porttitor fames
+                        tellus.
+                    </p>
+                    <div class="mt_48 d-flex flex-column gap_16">
+                        <div class="box_1 pointer d-flex align-items-center gap_23">
+                            <div class="yelo-circle d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="mb-0 fw_600 fs_22 lh_33 --black">1</h2>
+                            </div>
+                            <div>
+                                <h2 class="fw_600 fs_22 lh_33 clr_white mb-0">Cras nunc libero ac</h2>
+                                <h3 class="fw_400 fs_18 lh_32 clr_white mb-0 opacity_70">Amet, integer et ultrices non
+                                    viverra
+                                    dolor dui
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="box_1 pointer d-flex align-items-center gap_23">
+                            <div class="yelo-circle d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="mb-0 fw_600 fs_22 lh_33 --black">2</h2>
+                            </div>
+                            <div>
+                                <h2 class="fw_600 fs_22 lh_33 clr_white mb-0">Cras nunc libero ac</h2>
+                                <h3 class="fw_400 fs_18 lh_32 clr_white mb-0 opacity_70">Amet, integer et ultrices non
+                                    viverra
+                                    dolor dui
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="box_1 pointer d-flex align-items-center gap_23">
+                            <div class="yelo-circle d-flex flex-column align-items-center justify-content-center">
+                                <h2 class="mb-0 fw_600 fs_22 lh_33 --black">3</h2>
+                            </div>
+                            <div>
+                                <h2 class="fw_600 fs_22 lh_33 clr_white mb-0">Cras nunc libero ac</h2>
+                                <h3 class="fw_400 fs_18 lh_32 clr_white mb-0 opacity_70">Amet, integer et ultrices non
+                                    viverra
+                                    dolor dui
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 pt_sm_50 pt_80">
+                    <img src="./assets/img/png/Buyimg.png" class="buyImg" alt="Buyimg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tokenomics and Roadmap -->
+    <section class="py_60_73 bg_blk -mt_2 position-relative z-3">
+        <!-- tokenomics -->
+        <div class="container_1320" id="Tokenomics">
+            <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_32 text-center">Tokenomics</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="pointer blackCard">
+                        <h3 class="fw_400 fs_22 lh_33 clr_white mb-0">
+                            Liquidity</h3>
+                        <!--  -->
+                        <div class="mt_16 d-flex gap_106 justify-content-between align-items-center">
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Buying
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Selling
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt_sm_24">
+                    <div class="pointer blackCard">
+                        <h3 class="fw_400 fs_22 lh_33 clr_white mb-0">
+                            Marketing</h3>
+                        <!--  -->
+                        <div class="mt_16 d-flex gap_106 justify-content-between align-items-center">
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Buying
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Selling
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt_lg_24">
+                    <div class="pointer blackCard">
+                        <h3 class="fw_400 fs_22 lh_33 clr_white mb-0">
+                            Rewards</h3>
+                        <!--  -->
+                        <div class="mt_16 d-flex gap_106 justify-content-between align-items-center">
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Buying
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                            <div>
+                                <h3 class="fw_400 fs_14 lh_25 clr_white opacity_70 mb-0">
+                                    When Selling
+                                </h3>
+                                <h2 class="fw_600 max-md-font-medium fs_28 lh_42 clr_white percentage pointer mb-0">
+                                    3-5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- chart data -->
+            <div class="chartBox mt_22">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <img src="./assets/img/png/circle-data.png" class="w-100 max-361" alt="data-in-circle">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pt_lg_70">
+                        <div class="row align-items-center ">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex justify-content-center ">
+                                    <div class="d-flex flex-column gap_15 max-sm-max-w-300">
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--green w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--orange w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--purple w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--skyblue w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--sunclr w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                        <div class="d-flex align-items-center gap_25">
+                                            <div class="--redmix w_50 h_50 rounded_4">
+                                            </div>
+                                            <h4 class="fw_600 max-md-font-medium fs_18 lh_32 clr_white mb-0">
+                                                Sed sem
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 pt-md-60">
+                                <div class="d-flex justify-content-md-end justify-content-center">
+                                    <img src="./assets/img/png/TokenomicsImg.png" class="max_315 w-100 h_437" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- table -->
+            <div class="overflow-auto scrolbar pb_10 text-nowrap ">
+                <table class="w-100 table_data">
+                    <thead class="--thBg w-100">
+                        <tr>
+                            <th class=""></th>
+                            <th class="fw_600 fs_18 lh_32 text-center clr_white">
+                                Token
+                            </th>
+                            <th class="fw_600 fs_18 lh_32 text-center clr_white">
+                                Percentage
+                            </th>
+                            <th class="fw_600 fs_18 lh_32 text-center clr_white">
+                                Token Price
+                            </th>
+                            <th class="fw_600 fs_18 lh_32 text-center clr_white">
+                                Token Price
+                            </th>
+                            <th class="fw_600 fs_18 lh_32 text-center clr_white">
+                                Total Amount
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="w-100">
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                        <tr>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center">
+                                Seddigq</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                1,00,000</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                58.3</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                12%</td>
+                            <td class="fw_400 fs_18 lh_32 clr_white text-center opacity_70">
+                                10% Monthly</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- road map -->
+        <div class="pt_60">
+            <div class="container_1320">
+                <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_24 text-center">Roadmap</h1>
+                <div class="timeline mt_60 max_md_450 mx-auto">
+                    <div class="roadBox position-relative left">
+                        <h2 class="fw_600 fs_36 max-sm:text-xl lh_54 md_start text-md-end clr_white mb-0">
+                            Phase-1
+                        </h2>
+                        <p class="fw_400 fs_18 lh_32 clr_white md_start text-md-end mt-2 opacity_70 mb-0">
+                            Massa pellentesque sagittis
+                            <span class="d-md-block d-inline">Aliquamsed in odio.</span>
+                            <span class="d-md-block d-inline">Turpis blandit at interdum</span>
+                            Eget tempus nulla tempus arcu.
+                        </p>
+                    </div>
+                    <div class="roadBox position-relative right">
+                        <h2 class="fw_600 fs_36 max-sm:text-xl lh_54 text-start clr_white mb-0">
+                            Phase-1
+                        </h2>
+                        <p class="fw_400 fs_18 lh_32 clr_white text-start mt-2 opacity_70 mb-0">
+                            Massa pellentesque sagittis
+                            <span class="d-md-block d-inline">Aliquamsed in odio.</span>
+                            <span class="d-md-block d-inline">Turpis blandit at interdum</span>
+                            Eget tempus nulla tempus arcu.
+                        </p>
+                    </div>
+                    <div class="roadBox position-relative left">
+                        <h2 class="fw_600 fs_36 max-sm:text-xl lh_54 md_start text-md-end clr_white mb-0">
+                            Phase-1
+                        </h2>
+                        <p class="fw_400 fs_18 lh_32 clr_white md_start text-md-end mt-2 opacity_70 mb-0">
+                            Massa pellentesque sagittis
+                            <span class="d-md-block d-inline">Aliquamsed in odio.</span>
+                            <span class="d-md-block d-inline">Turpis blandit at interdum</span>
+                            Eget tempus nulla tempus arcu.
+                        </p>
+                    </div>
+                    <div class="roadBox position-relative right">
+                        <h2 class="fw_600 fs_36 max-sm:text-xl lh_54 text-start clr_white mb-0">
+                            Phase-1
+                        </h2>
+                        <p class="fw_400 fs_18 lh_32 clr_white text-start mt-2 opacity_70 mb-0">
+                            Massa pellentesque sagittis
+                            <span class="d-md-block d-inline">Aliquamsed in odio.</span>
+                            <span class="d-md-block d-inline">Turpis blandit at interdum</span>
+                            Eget tempus nulla tempus arcu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pisiton image -->
+        <img src="./assets/img/png/roadPosition1.png" class="position-absolute setPositionRoad1" alt="ellips">
+        <img src="./assets/img/png/roadPosition2.png" class="position-absolute setPositionRoad2" alt="ellips">
+    </section>
+    <!-- footer -->
+    <section id="faq" class="pb_456 bg_blk position-relative -mt_2 z-3 ">
+        <div class="container_1320">
+            <h1 class="fw_600 max-md-font-medium fs_48 lh_61 clr_white mb_32 text-center">FAQ</h1>
+            <div class="max_992 mx-auto py_26_88">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header mb-0" id="headingTwo">
+                            <button class="accordion-button collapsed  fs_22 fw_600 lh_33 clr_white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Volutpat consequat dictumst vel donec.
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 fw_400 fs_18 lh_32 clr_white opacity_70">Amet vitae hendrerit facilisi
+                                    gravida.
+                                    Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit
+                                    in mi orci. Aliquet ullamcorper quis felis at scelerisque non faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header mb-0" id="headingOne">
+                            <button class="accordion-button  fs_22 fw_600 lh_33 clr_white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Volutpat consequat dictumst vel donec.
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class=" fw_400 fs_18 lh_32 clr_white mb-0  opacity_70">Amet vitae hendrerit facilisi
+                                    gravida.
+                                    Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit
+                                    in mi orci. Aliquet ullamcorper quis felis at scelerisque non faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header mb-0" id="headingThree">
+                            <button class="accordion-button collapsed fs_22 fw_600 lh_33 clr_white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Volutpat consequat dictumst vel donec.
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class=" fw_400 fs_18 lh_32 clr_white mb-0  opacity_70">Amet vitae hendrerit facilisi
+                                    gravida.
+                                    Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit
+                                    in mi orci. Aliquet ullamcorper quis felis at scelerisque non faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header mb-0" id="headingFour">
+                            <button class="accordion-button collapsed  fs_22 fw_600 lh_33 clr_white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Volutpat consequat dictumst vel donec.
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class=" fw_400 fs_18 lh_32 clr_white mb-0  opacity_70">Amet vitae hendrerit facilisi
+                                    gravida.
+                                    Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit
+                                    in mi orci. Aliquet ullamcorper quis felis at scelerisque non faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header mb-0" id="headingFive">
+                            <button class="accordion-button collapsed  fs_22 fw_600 lh_33 clr_white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Volutpat consequat dictumst vel donec.
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class=" fw_400 fs_18 lh_32 clr_white mb-0  opacity_70">Amet vitae hendrerit facilisi
+                                    gravida.
+                                    Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit
+                                    in mi orci. Aliquet ullamcorper quis felis at scelerisque non faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myBtn" onclick="topFunction()" class="backtop">
+            <svg class="scale_06" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.0835 17.0007V33.6673H14.9168V17.0007H0.333496L17.0002 0.333984L33.6668 17.0007H19.0835Z"
+                    fill="white" />
+            </svg>
+        </div>
+        <!-- poisition image -->
+        <img src="./assets/img/png/footerPosition.png" class="position-absolute setPositionFooter" alt="ellips">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
